@@ -3,9 +3,10 @@ import os
 from datetime import datetime
 
 import discordsend
-import get_epic
-import get_steam
-import get_ue
+from getinfo import get_epic
+from getinfo import get_steam
+from getinfo import get_ue
+
 
 
 tokenfile="token.txt"
